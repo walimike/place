@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="place.scss">
+    <title>Get customers for your business</title>
+</head>
+<body class="bodycontent">
+    <div class="error-message">
+        <h1>Login Failed</h1>
+    </div>
+    <div class="login-form">
+        <img class="login-logo" src="images/LogoWhiteYellow.svg" alt="">        
+        <form class="form-details" action="">
+            User name:<br>
+            <input type="text" name="firstname" required placeholder="Username">
+            Password:<br>
+            <input type="passsword" name="password" required placeholder="Password">
+        </form>
+        <button onclick="loginMessage();" style="background-color:blue; float: right; color: white; width: 75px; height: 40px; font: bold; margin: 20px;">Login</button>
+    </div>
+
+    <script>
+        const loginMessage = () =>{
+            // e.preventDefault()
+            // let errorMessage = document.getElementsByClassName("error-message")
+            // console.log(errorMessage.style)
+            // errorMessage.style.display = "block";
+            window.alert("sometext");
+        // errorMessage.style.display = 'block'
+        // alert("Hello")
+            // console.log(document.forms["form-details"])
+}
+    </script>
+</body>
+</html>
